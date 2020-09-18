@@ -1,0 +1,53 @@
+:root {
+  --col-green: #28a745;
+  --col-red: red;
+}
+
+.cntnr {
+  padding: 0px 50px 0px 50px;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.cntnr div {
+  align-items: center;
+  display: flex;
+}
+
+.cntnr div:nth-child(1) {
+  display: flex;
+}
+
+.cntnr div:nth-child(1) img,
+.cntnr div:nth-child(1) h3,
+.cntnr div:nth-child(1) input {
+  padding: 0px 5px 0px 5px;
+}
+.outline-btn {
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.outline-btn:hover {
+  color: white;
+}
+
+.success {
+  border: 1px solid var(--col-green);
+  color: var(--col-green);
+}
+.success:hover {
+  background-color: var(--col-green);
+}
+
+.danger {
+  border: 1px solid var(--col-red);
+  color: var(--col-red);
+}
+
+.danger:hover {
+  background-color: var(--col-red);
+}
